@@ -62,7 +62,7 @@ export default function App() {
             </div>
             <div id="helloleft">
               <p>
-                Hi' there my name is <h2>Ashu JAISWAL</h2>
+                Hi' there my name is <h2>Ishan JAISWAL</h2>
                 and here is everything about Why I Want to Work with
                 <b>
                   <i> Microsoft</i>
