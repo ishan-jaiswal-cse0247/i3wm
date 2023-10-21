@@ -43,18 +43,18 @@ export default function App() {
                 </a>
                 <ul>
                   <li>
+                    <a href="#" onClick={() => pageref.current.scrollTo(0)}>
+                      Home
+                    </a>
+                  </li>
+                  <li>
                     <a href="#" onClick={() => pageref.current.scrollTo(1)}>
-                      Detail
+                      About
                     </a>
                   </li>
                   <li>
                     <a href="#" onClick={() => pageref.current.scrollTo(2)}>
                       Contact
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://play.google.com/store/apps/dev?id=8579111499134615768">
-                      Play Store
                     </a>
                   </li>
                 </ul>
@@ -103,7 +103,7 @@ export default function App() {
                 className="scrollbutton"
                 onClick={() => pageref.current.scrollTo(1)}
               >
-                Scrool Down <br />
+                Tap to Scroll <br />
                 <span id="downaero"></span>
               </button>
             </div>
@@ -140,83 +140,80 @@ export default function App() {
                   <h2>Everything about Myself</h2>
                   <br />
                   <details>
-                    <summary>Let me introduce myself</summary>
+                    <summary>
+                      <div className="first-point"></div>Let me introduce Myself
+                    </summary>
                     <p>
-                      I am Ishan Jaiswal, as you are already aware. My essence
-                      is self-propelled, characterized by an inquisitive
-                      disposition. The pursuit of knowledge and the uncharted
-                      realms of technology, aimed at enhancing existence,
-                      perpetually captivate my enthusiasm. Inclined towards
-                      introversion, the tapestry of my moments is woven with
-                      contemplations, predominantly dwelling upon technological
-                      innovations or matters of a spiritual nature.
+                      I am Ishan Jaiswal and am strongly curious about
+                      Technology and Psychology. I dedicate most of my time to
+                      exploring and learning new things. I used to face
+                      confusion and inefficiency, which affected my academic
+                      performance, but then one of my teachers taught me that
+                      knowledge is the greatest strength. Having complete
+                      knowledge would help me pursue your goals with clarity. I
+                      followed this advice and it improved my results
+                      significantly. I also embraced discipline and some
+                      principles from my other mentors and now thanks to them I
+                      am advancing every day.
                     </p>
                   </details>
                   <details>
-                    <summary>Education Qualifications</summary>
+                    <summary>
+                      <div className="second-point"></div>Education
+                      Qualifications
+                    </summary>
                     <p>
-                      I recently achieved my Master's degree in Computer
-                      Applications with honors, preceded by a Bachelor's degree
-                      in Computer Applications from Shri Vaishnav Institute of
-                      Management. I secured CGPA scores of 8.1 and 7.0 for my
-                      Master's and Bachelor's degrees, respectively. While my
-                      Higher and Secondary Education saw scores of 55% and 50%
-                      correspondingly, I've made significant improvements in
-                      both areas. Through dedicated efforts, I have enhanced my
-                      academic performance, reflecting on the upward trajectory
-                      of my grades.
+                      I recently achieved my Master's in Computer Applications
+                      final year result with honors, preceded by a Bachelor's
+                      degree in Computer Applications from Shri Vaishnav
+                      Institute of Management, Indore. I secured CGPA scores of
+                      8.1 and 7.0 for my Master's and Bachelor's degrees,
+                      respectively. While my Higher and Secondary Education
+                      scores were 55% and 50% respectively, I've made
+                      significant improvement. Through dedicated efforts, I have
+                      enhanced my academic performance, reflecting on the upward
+                      trajectory of my grades and I will continue to do so.
                     </p>
                   </details>
                   <details>
-                    <summary>Professional Experiences</summary>
+                    <summary>
+                      <div className="third-point"></div>Professional
+                      Experiences
+                    </summary>
                     <p>
-                      I possess 6 months of extensive Full Stack development
-                      experience from a Fulltime internship, coupled with 6
-                      months of dedicated Freelance work focusing on MERN Stack
-                      development. Additionally, I bring 6 months of immersive
-                      Virtual Internship exposure as a Technology consultant at
-                      Deloitte. Through these roles, I have contributed to
+                      I possess 6 months of extensive Full Stack Development
+                      experience as a Fulltime intern from Trinabh Infotech Pvt
+                      Ltd, coupled with 6 months of dedicated Freelance work
+                      focusing on MERN Stack Development from Buliwear
+                      Enterprises. Additionally, I bring 6 months of immersive
+                      Virtual Internship exposure as a Technology Consultant
+                      from Deloitte. Through these roles, I have contributed to
                       numerous projects and gained invaluable leadership and
                       volunteering exposure during both my academic and
                       professional journey. My accomplishments extend to
                       encompass various professional certifications and active
-                      engagement in extracurricular pursuits. Consistently
-                      recognized as a standout team member, I have consistently
-                      demonstrated excellence and strong collaborative skills.
+                      engagement in extracurricular pursuits.
                     </p>
                   </details>
                   <details>
-                    <summary>Current Status</summary>
+                    <summary>
+                      <div className="forth-point"></div>Why to join Microsoft
+                    </summary>
                     <p>
-                      Having completed my Post Graduation in July 2023, I am
-                      actively enhancing my skills, unwilling to remain idle.
-                      Although I possess multiple offer letters from top firms
-                      and have garnered praise from interviewers for my
-                      qualifications and certifications, I find myself
-                      discontented with the prospects these roles offer at this
-                      early career juncture. I am steadfast in my pursuit of an
-                      opportunity that will enable me to fully employ my
-                      abilities, propelling my career toward a more substantial
-                      triumph across all facets of life.
-                    </p>
-                  </details>
-                  <details>
-                    <summary>Why I Love Microsoft</summary>
-                    <p>
-                      Since my early days, a deep fondness for Microsoft has
-                      thrived within me. The allure of working for this tech
-                      titan enchanted my childhood dreams, despite my limited
-                      understanding of its domain. Now, as I've matured, the
-                      vast expanse of Microsoft's influence has unveiled itself
-                      an array of products and services crafted to enhance our
-                      daily lives. What sets Microsoft apart, capturing my
-                      admiration, is its comprehensive portfolio, eclipsing even
-                      the amalgamation of other industry giants. The
-                      significance of its flagship products is so profound that
-                      envisioning a day without them becomes implausible. Beyond
-                      innovation, Microsoft distinguishes itself through an
-                      unwavering commitment to employees, fostering an
-                      exceptional work culture and abundant learning prospects.
+                      As a child, I loved Microsoft and its products. I was
+                      inspired by my classmates’ elder siblings who worked
+                      there. However, I wasn’t focused on my studies, so I
+                      thought I would never be able to get into Microsoft. But
+                      my recent academic and professional performance
+                      improvement encourages me that maybe I can be a part of
+                      Microsoft if I try my best. Additionally, by following a
+                      Microsoft ex-employee Shradha Khapra and Love Babbar on
+                      YouTube, I realized how Microsoft can improve your
+                      lifestyle and provide you the opportunity to shape your
+                      career. Despite having several offer letters from
+                      industry-recognized companies, I am still learning about
+                      the things that I left during my academics and hoping to
+                      get placed in Microsoft soon.
                     </p>
                   </details>
                 </div>
@@ -235,115 +232,86 @@ export default function App() {
                   <h2>What Microsoft is Lacking</h2>
                   <br />
                   <details>
-                    <summary>Unprepared ahead of time</summary>
+                    <summary>
+                      <div className="first-point"></div>Unprepared ahead of
+                      Time
+                    </summary>
                     <p>
-                      Microsoft has consistently demonstrated a pioneering
-                      spirit, evident from its early introduction of tablet
-                      technology in the early 2000s. However, despite these
-                      advancements, the company faced challenges in resonating
-                      with consumers. Windows Vista, a technologically
-                      impressive iteration with notable enhancements over its
-                      predecessor Windows XP, encountered adoption issues.
-                      Similarly, Windows 8 boasted a refined UI, Windows app
-                      integration, and improved compatibility with mobile
-                      devices, showcasing Microsoft's innovation. Yet, its
-                      forward-looking design and functionalities outpaced
-                      prevailing user preferences, resulting in limited
-                      acceptance. This underscores the significance of aligning
-                      technological innovation with prevailing user expectations
-                      to ensure widespread adoption. Microsoft's journey
-                      highlights the imperative of striking a balance between
-                      pushing technological boundaries and understanding the
-                      readiness of the market, ultimately shaping the trajectory
-                      of successful product integration.
+                      Microsoft is known for its innovation, like introducing
+                      tablets in the early 2000s. But sometimes, their advanced
+                      products didn't catch on with users. For example, Windows
+                      Vista had impressive features, but people didn't adopt it
+                      easily. Similarly, Windows 8 had a great interface,
+                      integrated with Windows apps, and worked well on mobile
+                      devices, but it was ahead of what users wanted, so it
+                      didn't succeed widely. This shows the importance of
+                      matching tech innovation with what users want. Microsoft's
+                      journey teaches us that it's crucial to strike a balance
+                      between pushing technological boundaries and understanding
+                      what the market is ready for. This balance shapes the
+                      success of a product in the market.
                     </p>
                   </details>
                   <details>
-                    <summary>Microsoft Echosystem</summary>
+                    <summary>
+                      <div className="second-point"></div>Unestablished
+                      Echosystem
+                    </summary>
                     <p>
-                      Apple is widely recognized for its seamless ecosystem,
-                      bolstered by tightly integrated devices such as mobiles,
-                      tablets, laptops, and desktops. However, Microsoft, a
-                      dominant force in the desktop and laptop market, boasts an
-                      extensive range of products that often go unnoticed as
-                      part of a unified ecosystem. Its portfolio includes
-                      Surface Laptops, Xbox Gaming Consoles, Cloud Gaming via
-                      Game Pass, AI Assistant, the versatile Office suite, and
-                      several development tools like VSCode. The distinction
-                      lies in connectivity: Apple's devices interact seamlessly
-                      due to their proprietary software and hardware
-                      integration, while Microsoft's diverse offerings stem from
-                      various acquisitions and historical product development
-                      paths. Despite this, Microsoft's multifaceted suite of
-                      products resonates significantly with users, creating a
-                      subtle yet powerful ecosystem. This is a testament to
-                      Microsoft's ability to serve a wide range of needs while
-                      offering users a variety of interconnected tools and
-                      experiences, albeit in a manner less visibly integrated
-                      than Apple's famed ecosystem.
+                      Apple is known for its devices working well together, like
+                      iPhones, iPads, Macs, and more. On the other hand,
+                      Microsoft has a wide range of products, like Surface
+                      Laptops, Xbox, AI Assistant, Office, and several
+                      development tools. The key difference is how they connect.
+                      Apple's devices work smoothly because they use their own
+                      software and hardware. Microsoft's products come from
+                      different sources, but they still make a strong ecosystem.
+                      Microsoft's ecosystem might not be as tightly integrated
+                      as Apple's, but it offers a lot of useful tools for
+                      different needs. This shows Microsoft's ability to cater
+                      to a wide range of users with various connected tools, but
+                      still needs some major improvement.
                     </p>
                   </details>
                   <details>
-                    <summary>Open Source Contribution</summary>
+                    <summary>
+                      <div className="third-point"></div>Misunderstood Customers
+                    </summary>
                     <p>
-                      Microsoft has faced challenges with open-source software
-                      due to its history of proprietary software models. While
-                      transitioning to a more open approach, the company has
-                      faced credibility issues but has progressively embraced
-                      open-source initiatives. Some critics argue that
-                      Microsoft's contributions can be selective and overshadow
-                      smaller community-driven projects. Additionally, the
-                      extent of collaboration raises concerns due to the
-                      influence of Microsoft's proprietary technologies.
+                      Windows 8 had great features but tripped up because it
+                      changed the user interface too abruptly. Users were
+                      confused by the new calculator app, which didn't let them
+                      switch between desktop and tablet styles easily, unlike
+                      Windows 7. This change made people unhappy. Similarly,
+                      Windows phones like Lumia 540, 630, and 950XL were
+                      powerful, but they looked very different from Android,
+                      which most people were used to. This made Android users
+                      uncomfortable, even though Windows had good apps and
+                      capabilities. The lesson here is that while innovation is
+                      important, big changes in how things look and work should
+                      come with user-friendly options. This helps people
+                      transition smoothly and avoids making long-time users feel
+                      left behind.
                     </p>
                   </details>
                   <details>
-                    <summary>Undertanding Customer</summary>
+                    <summary>
+                      <div className="forth-point"></div>Marketing Strategy
+                      Issue
+                    </summary>
                     <p>
-                      Windows 8 encountered considerable anticipation due to its
-                      promising features, but it faltered due to a crucial UI
-                      shift that hindered user experience. The absence of a
-                      clear option to toggle between two distinct calculator app
-                      designs—desktop style and tablet/mobile style—caused
-                      confusion and frustration. This marked a departure from
-                      the familiar UI of Windows 7, resulting in an unfavorable
-                      reception. Similarly, Windows phones, exemplified by
-                      models like Lumia 540, 630, and 950XL, boasted superior
-                      performance and features, yet diverged significantly from
-                      the widely adopted Android interface. This divergence
-                      alienated users accustomed to Android's interface, leading
-                      to a lack of acceptance despite advancements in-app
-                      support and capabilities. The lesson drawn is that while
-                      innovation is essential, abrupt UI changes should be
-                      complemented by user-friendly options to ensure seamless
-                      transitions and to avoid alienating user bases accustomed
-                      to prior experiences.
-                    </p>
-                  </details>
-                  <details>
-                    <summary>Marketing Strategy Issue</summary>
-                    <p>
-                      Microsoft possesses a diverse range of products, some
-                      garnering substantial recognition, like Windows, Office,
-                      and VSCode, while others may require enhanced visibility.
-                      Products such as Xbox and Azure face robust competition,
-                      with rivals leveraging effective marketing strategies. A
-                      prime example is the launch of Windows Vista, initially
-                      plagued by bugs that hindered user acceptance. However,
-                      Microsoft employed a strategic marketing approach,
-                      offering users a revised experience, thereby altering
-                      negative perceptions. By allowing users to interact with
-                      Windows Vista incognito, favorable opinions developed over
-                      time. This strategy paved the way for the successful
-                      launch of Windows 7, which built upon the improved Vista
-                      foundation, attaining widespread acclaim. This historical
-                      perspective underscores Microsoft's capacity to modify
-                      product perceptions through strategic marketing
-                      initiatives. In the contemporary landscape, lessons from
-                      such experiences can guide the company's efforts to
-                      elevate awareness and appreciation for products like Xbox
-                      and Azure, ensuring their rightful place within the
-                      competitive tech ecosystem.
+                      Microsoft has many products, like Windows, Office, and
+                      VSCode, that are well-known. But some, like Xbox and
+                      Azure, face tough competition. For example, when Windows
+                      Vista came out, it had problems, but Microsoft used smart
+                      marketing to make it better. They let people try it
+                      without knowing it was Vista, and that changed how people
+                      saw it. This helped Windows 7, which was built on the
+                      improved Vista, become very popular. This shows that
+                      Microsoft can change how people see their products through
+                      good marketing. Today, they can use these lessons to make
+                      products like Xbox and Azure more well-known and
+                      appreciated in the competitive tech world.
                     </p>
                   </details>
                 </div>
@@ -362,51 +330,47 @@ export default function App() {
                   <h2>We Together can Achive</h2>
                   <br />
                   <details>
-                    <summary>Small yet Important things</summary>
+                    <summary>
+                      <div className="first-point"></div>Detailed Orientation
+                    </summary>
                     <p>
-                      Microsoft's Windows operating system, a cornerstone of
-                      modern computing, has undoubtedly evolved significantly.
-                      However, it's worth acknowledging that certain aspects
-                      still present opportunities for enhancement. For instance,
-                      while Windows PC Manager shows promise, its beta stage
-                      indicates room for refinement compared to its
-                      long-standing counterparts. The absence of features like
-                      app and file/folder locking, notification history, and a
-                      built-in screen recorder, which users have come to
-                      appreciate in other platforms, leaves potential untapped.
-                      These features not only streamline daily tasks but also
-                      foster user affinity. As someone intrinsically committed
-                      to detail, I aspire to contribute to Microsoft's
-                      evolution. Drawing inspiration from diverse sources and
-                      amalgamating ideas, I aim to enrich Windows with
-                      comprehensive functionality, thus captivating users and
-                      solidifying their loyalty.
+                      As a detail-oriented person, I believe that small yet
+                      significant features can make our customers fall in love
+                      with our product. While Windows has many amazing features,
+                      it still lacks some minor things like a screen recorder,
+                      folder/file/application lock, notification history, Always
+                      on Display, Digital Wellbeing and etc. These features not
+                      only streamline daily tasks but also foster user affinity.
+                      By loading our products with these small features, we can
+                      make our bond stronger with our customers. By
+                      incorporating these features into our products, we can
+                      provide a more comprehensive and delightful experience to
+                      our users.
                     </p>
                   </details>
                   <details>
-                    <summary>Enhance before Innovate</summary>
+                    <summary>
+                      <div className="second-point"></div>Innovate like Engineer
+                    </summary>
                     <p>
-                      Windows Phone 7, 8.1, and 10 each were introduced
-                      relatively quickly. This approach aimed to address
-                      evolving market trends and user preferences. While the
-                      strategy displayed adaptability, it also posed challenges
-                      in creating a stable and enduring ecosystem. Brands often
-                      refine their visions based on user feedback, as evidenced
-                      by industry peers. In the context of a prospective
-                      collaboration with Microsoft, my inclination toward
-                      learning from both personal and collective mistakes aligns
-                      with the ethos of innovation. Combining insights garnered
-                      from introspection and market dynamics can lead to
-                      remarkable outcomes. By adopting a balanced approach of
-                      continuity and transformation, there's potential to craft
-                      solutions that resonate with users and withstand shifts in
-                      perception. My commitment to learning and improvement
-                      positions me favorably to contribute to Microsoft's future
-                      endeavors.
+                      I worked as a full-stack developer, where my main role is
+                      to create tailored computer programs that cater to the
+                      specific needs of businesses. My long-term objective is to
+                      grow into a software engineer who handles intricate
+                      projects and ensures smooth functioning. I am constantly
+                      learning and gaining experience to prepare myself for this
+                      role. My vision is to create inventive solutions that
+                      benefit both end-users and Microsoft. However, there is
+                      still room for improvement in this area. Microsoft should
+                      concentrate on predicting the future needs of its
+                      customers rather than merely developing what they demand
+                      right now. Together, we can achieve this goal.
                     </p>
                   </details>
                   <details>
-                    <summary>Proper Market Analysis</summary>
+                    <summary>
+                      <div className="third-point"></div>Analyze competitors
+                    </summary>
                     <p>
                       Market analysis stands as a crucial pillar in product
                       development, furnishing insights into a product's
@@ -426,42 +390,22 @@ export default function App() {
                     </p>
                   </details>
                   <details>
-                    <summary>Example of my Thought</summary>
+                    <summary>
+                      <div className="forth-point"></div>My Final Words
+                    </summary>
                     <p>
-                      Amid Microsoft's discontinuation of Cortana, the current
-                      landscape offers a diverse array of AI-driven tools such
-                      as Bing chat, Microsoft 365 Copilot, and others. However,
-                      the fragmentation can indeed be perplexing for users
-                      seeking a unified experience. The desire for a
-                      comprehensive AI assistant, analogous to the fictional
-                      Jarvis, is evident—a singular entity capable of seamlessly
-                      executing tasks across coding, system management, content
-                      creation, research, and leisure recommendations. While
-                      existing AI personas like J.A.R.V.I.S., F.R.I.D.A.Y.,
-                      Karen, and E.D.I.T.H. perform distinct functions, the
-                      optimal solution lies in an integrated AI model that
-                      harmonizes these capabilities. If the opportunity arises,
-                      I am committed to channeling efforts into the development
-                      of such an encompassing AI companion, streamlining user
-                      interactions and enhancing productivity within a
-                      consolidated framework.
-                    </p>
-                  </details>
-                  <details>
-                    <summary>My Final Words</summary>
-                    <p>
-                      As a self-motivated and detail-oriented individual, my
-                      aspiration is to contribute my skills and passion to
-                      Microsoft. I envision embarking on a transformative
-                      journey, aligning with emerging technological trends and
-                      advancements. Collaboratively, we can pioneer innovative
-                      products that enrich lives. My resolute commitment to
-                      excellence and a shared vision of success fuels my desire
-                      to join Microsoft's esteemed team. Together, we will craft
-                      solutions that empower and enhance our global community.
-                      This narrative encapsulates why I want to work with
-                      Microsoft, and I extend my gratitude for the prospect of
-                      being a part of this impactful journey.
+                      It seems like we both have areas where we can improve. For
+                      me, I've been working hard to fill in any gaps in my
+                      education and staying up to date with the latest trends
+                      and technologies. Meanwhile, Microsoft has a lot of room
+                      for improvement in various aspects. I've seen some ads for
+                      Bing AI introducing new features like palm reading, but
+                      there are still many things that need to be addressed
+                      before that. This is just one product, and Microsoft has
+                      many, so there's a lot of work to be done. Although this
+                      process will take time, I'm hopeful that we can work
+                      together to bring about the necessary improvements.
+                      Looking forward to hearing back from you.
                     </p>
                   </details>
                 </div>
@@ -481,7 +425,7 @@ export default function App() {
                 className="scrollbutton"
                 onClick={() => pageref.current.scrollTo(2)}
               >
-                Scrool Down <br />
+                Tap to Scroll <br />
                 <span id="downaero"></span>
               </button>
             </div>
@@ -490,6 +434,7 @@ export default function App() {
         <ParallaxLayer className="page" offset={2} speed={0.4}>
           <div id="contactme">
             <div id="contactleft">
+              <br />
               <h2>
                 Send me your thoughts and I will be regularly updating the
                 details.
