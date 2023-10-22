@@ -401,12 +401,12 @@ export default function App() {
                       improvement in various aspects. I've seen some ads for
                       Bing AI introducing new features like palm reading, but
                       many things still need to be addressed before that. Also
-                      please do not rush towards implementing AI everywhereThis
-                      is just one product, and Microsoft has many, so there's a
-                      lot of work to be done. Although this process will take
-                      time, I'm hopeful we can work together to make the
-                      necessary improvements. Looking forward to hearing back
-                      from you.
+                      please do not rush towards implementing new features, you
+                      are repeating the mistake you made earlier. This is just
+                      one product, and Microsoft has many, so there's a lot of
+                      work to be done. Although this process will take time, I'm
+                      hopeful we can work together to make the necessary
+                      improvements. Looking forward to hearing back from you.
                     </p>
                   </details>
                 </div>
