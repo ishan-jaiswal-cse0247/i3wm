@@ -394,18 +394,19 @@ export default function App() {
                       <div className="forth-point"></div>My Final Words
                     </summary>
                     <p>
-                      It seems like we both have areas where we can improve. For
-                      me, I've been working hard to fill in any gaps in my
-                      education and staying up to date with the latest trends
-                      and technologies. Meanwhile, Microsoft has a lot of room
-                      for improvement in various aspects. I've seen some ads for
+                      It seems like we both have areas where we can improve.
+                      I've been working hard to fill in any gaps in my education
+                      and stay up to date with the latest trends and
+                      technologies. Meanwhile, Microsoft has a lot of room for
+                      improvement in various aspects. I've seen some ads for
                       Bing AI introducing new features like palm reading, but
-                      there are still many things that need to be addressed
-                      before that. This is just one product, and Microsoft has
-                      many, so there's a lot of work to be done. Although this
-                      process will take time, I'm hopeful that we can work
-                      together to bring about the necessary improvements.
-                      Looking forward to hearing back from you.
+                      many things still need to be addressed before that. Also
+                      please do not rush towards implementing AI everywhereThis
+                      is just one product, and Microsoft has many, so there's a
+                      lot of work to be done. Although this process will take
+                      time, I'm hopeful we can work together to make the
+                      necessary improvements. Looking forward to hearing back
+                      from you.
                     </p>
                   </details>
                 </div>
