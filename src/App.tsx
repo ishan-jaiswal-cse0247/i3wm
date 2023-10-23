@@ -83,9 +83,6 @@ export default function App() {
                   <a href="https://www.credly.com/users/ishan-jaiswal-cse0247/badges">
                     <img src="./assets/credly.png" alt="Credly" />
                   </a>
-                  <a href="https://play.google.com/store/apps/dev?id=8579111499134615768">
-                    <img src="./assets/google-play.png" alt="Play Store" />
-                  </a>
                 </div>
               </p>
             </div>
@@ -436,10 +433,7 @@ export default function App() {
           <div id="contactme">
             <div id="contactleft">
               <br />
-              <h2>
-                Send me your thoughts and I will be regularly updating the
-                details.
-              </h2>
+              <h2>Excited to hear from you!</h2>
               <br />
               <form ref={formref} onSubmit={contactme} id="contact-form">
                 <input
